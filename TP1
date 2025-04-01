@@ -1,0 +1,17 @@
+• -charset name pour préciser l’encodage, en particulier si on veut des caractères accentués.
+• -private pour documenter les attributs et méthodes privés (qui sont ignorés par défaut)
+• -noqualifier all pour ne pas inscrire dans la doc le nom des packages
+
+Pour générer la javadoc d’une application JavaFX, il faut également ajouter les deux options :
+--module-path /usr/share/openjfx/lib/ et --add-modules javafx.controls.
+
+Slider(5,50,20) = (min,max,value)
+
+
+Pour compiler :
+
+javac --module-path /usr/share/openjfx/lib/ --add-modules javafx.controls *.java
+
+Pour executer :
+
+java --module-path /usr/share/openjfx/lib/ --add-modules javafx.controls Executable
