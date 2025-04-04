@@ -127,7 +127,7 @@ public class AppliDessin extends Application {
      * Pour afficher le "mode d'emploi" en haut de la fenêtre (borderpane)
      */
     private void ajouteTop(BorderPane border){
-        Label labelA = new Label("Pour ajouter un disque :\n - utiliser le curseur à droite pour déterminer son rayon\n - cliquer dans le bloc gris au centre\n\nBouton Annuler pour effacer le dernier disque\nTouche '+' pour agrandir le rayon du dernier disque\nTouche '-' pour diminiuer le rayon du dernier disque");        
+        Label labelA = new Label("Pour ajouter un disque :\n - utiliser le curseur à droite pour déterminer son rayon\n - cliquer dans le bloc gris au centre\n\nBouton Annuler pour effacer le dernier disque\nTouche '+' pour agrandir le rayon du dernier disque\nTouche '-' pour diminiuer le rayon du dernier disque\nTouche '*' pour changer couleur du dernier disque");        
         labelA.setFont(Font.font("Arial", 20));
         BorderPane.setMargin(labelA, new Insets(20));
         border.setTop(labelA);
