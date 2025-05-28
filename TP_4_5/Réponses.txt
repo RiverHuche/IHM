@@ -1,0 +1,5 @@
+Modèle : Dictionnaire, MotMystere
+
+Vue : Pendu, Chronometre, Clavier,  
+
+Controleur : ControleurChronometre, ControleurInfos, ControleurNiveau, ControleurLancerPartie, ControleurParametres, ControleurLettres
